@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Da 2', cursive;
+}
+body{
+    background-color: rgb(73, 131, 240);
+    padding-top: 50px;
+}
+.container{
+    border: none;
+    background: white;
+    padding-top: 30px;
+    border-radius: 40px;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+
+}
+h2, h4{
+    margin-bottom: 20px;
+    color: rgb(73, 131, 240);
+}
+input{
+    background-color: rgb(224, 219, 219);
+    width: 440px;
+    height: 35px;
+    margin: 7px;
+    border-radius: 10px;
+    border: none;
+}
+input[type = "text"] ,input[type = "password"]{
+    color: black;
+    padding-left: 20px;
+    font-weight: bolder;
+}
+::placeholder{
+    font-weight: bolder;
+    color: black;
+}
+button{
+    width: 440px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(73, 131, 240);
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    border: none;
+}
+.hr{
+    margin-left: 21px;
+    display: flex;
+    align-items: center;
+}
+hr{
+    margin: 10px;
+    width: 200px;
+    height: 0px;
+}
+.pass{
+    margin-top: 20px;
+}
+.forget{
+    text-decoration: none;
+}
+#New{
+    width: 200px;
+    background-color: rgb(12, 150, 12);
+}
+.lang{
+    margin-top: 30px;
+}
+.lang a{
+    text-decoration: none;
+    margin: 0px 40px;
+    font-size: 14px;
+}
+.lang a:hover, :active{
+    color: rgb(145, 145, 145);
+}
+.foot-text{
+    margin-top: 20px;
+}
+p{
+    font-size: 14px;
+    color: rgb(161, 161, 161);
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(37, 33, 33);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
